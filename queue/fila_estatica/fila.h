@@ -13,5 +13,5 @@ void destroy(fila_t *p);
 int isFull(fila_t *p);
 int isEmpty(fila_t *p);
 int insert(fila_t *p, elem x);
-int remove(fila_t *p, elem *x);
+int removeElem(fila_t *p, elem *x);
 int top(fila_t *p, elem *x);

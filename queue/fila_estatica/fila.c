@@ -50,7 +50,7 @@ int insert(fila_t *f, elem x){
     return 1;
 }
 
-int remove(fila_t *f, elem *x){
+int removeElem(fila_t *f, elem *x){
     if(isEmpty(f) == 1)
         return 0;
 
