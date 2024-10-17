@@ -1,22 +1,63 @@
-# ADTs Collection
+# 🌟 ADTs Collection
 
-Coleção de tipos abstratos de dados em C.
+**A collection of Abstract Data Types (ADTs) implemented in pure C.**  
+Flexible, efficient, and adaptable implementations of commonly used data structures, designed for reuse in various C projects.
 
-## Árvores:
-- Árvore AVL
-- Treap
-- Árvore binária de busca
-- Árvove binária
+---
 
-## Listas:
-- Lista encadeada
-- Lista duplamente encadeada e ordenada (pode-se manipular o código para gerar as variações desejadas. Torná-la circular é trivial)
+## 📚 Features
 
-## Filas
-- Fila estática
-- Fila genérica (aceita todos os tipos de dados)
+- **Binary Search Tree (BST)**
+- **AVL Tree**
+- **Treap**
+- **Singly & Doubly Linked Lists**
+- **Stacks** (Static, Dynamic, Generic)
+- **Queue** (Generic)
 
-## Pilhas
-- Pilha estática
-- Pilha dinâmica
-- Pilha genérica (aceita todos os tipos de dados)
+---
+
+## ⚡ Highlights
+
+- **Modular Design:** Easily extensible and modifiable structures.
+- **Flexibility:** Doubly Linked List supports circular configurations.
+- **Performance-Oriented:** Optimized for efficient data handling.
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/voidashi/ADTs-Collection.git
+```
+
+### Compilation
+
+Use a C compiler (like `gcc`) to compile the source files:
+
+```bash
+gcc -o program your_source_file.c
+```
+
+### Examples
+
+Include usage examples for the data structures:
+
+```c
+#include "linkedlist.h"
+// Example usage of linked list
+```
+
+---
+
+## 🤝 Contributing
+
+Feel free to submit issues or pull requests to help improve this collection!
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
