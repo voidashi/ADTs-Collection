@@ -1,63 +1,73 @@
 # 🌟 ADTs Collection
 
-**A collection of Abstract Data Types (ADTs) implemented in pure C.**  
-Flexible, efficient, and adaptable implementations of commonly used data structures, designed for reuse in various C projects.
+**A collection of Abstract Data Types (ADTs) implemented in pure C**  
+[![C](https://img.shields.io/badge/C-Pure_C-blue?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+Flexible and efficient implementations of fundamental data structures for C projects.
 
 ---
 
-## 📚 Features
+## 📚 Implemented Structures
 
-- **Binary Search Tree (BST)**
-- **AVL Tree**
-- **Treap**
-- **Singly & Doubly Linked Lists**
-- **Stacks** (Static, Dynamic, Generic)
-- **Queue** (Generic)
-
----
-
-## ⚡ Highlights
-
-- **Modular Design:** Easily extensible and modifiable structures.
-- **Flexibility:** Doubly Linked List supports circular configurations.
-- **Performance-Oriented:** Optimized for efficient data handling.
+### **Core ADTs**
+- **Trees**
+  - Binary Search Tree (BST)
+  - AVL Tree
+  - Treap
+- **Linear Structures**
+  - Singly Linked List
+  - Doubly Linked List (supports circular configuration)
+- **LIFO/FIFO**
+  - Stack (Static/Dynamic/Generic implementations)
+  - Queue (Generic)
 
 ---
 
 ## 🚀 Getting Started
 
-### Clone the Repository
+### Prerequisites
+- C compiler (GCC/Clang recommended)
+- Standard C library
 
-```bash
-git clone https://github.com/voidashi/ADTs-Collection.git
-```
+### Basic Usage
+1. Clone repository:
+   ```bash
+   git clone https://github.com/voidashi/ADTs-Collection.git
+   ```
+2. Include desired headers in your code:
+   ```c
+   #include "linkedlist.h"  // For linked list operations
+   ```
+3. Compile with your source:
+   ```bash
+   gcc -o your_program your_code.c
+   ```
 
-### Compilation
+---
 
-Use a C compiler (like `gcc`) to compile the source files:
-
-```bash
-gcc -o program your_source_file.c
-```
-
-### Examples
-
-Include usage examples for the data structures:
-
-```c
-#include "linkedlist.h"
-// Example usage of linked list
-```
+## ⚙️ Key Features
+- **Modular Design**: Independent structure implementations
+- **Memory Efficiency**: Manual memory management control
+- **Type Flexibility**: Generic implementations through `void*`
+- **Circular List Support**: For doubly linked lists
 
 ---
 
 ## 🤝 Contributing
+Contributions are welcome through:  
+- Issue reports
+- Pull requests
+- Documentation improvements
 
-Feel free to submit issues or pull requests to help improve this collection!
+Please maintain existing coding patterns and test any changes.
 
 ---
 
-## 📄 License
+## 📜 License
+MIT Licensed - Full terms in [LICENSE](LICENSE) file
 
-This project is licensed under the [MIT License](./LICENSE).
+---
 
+*"Show me your code and I'll tell you who you are."*  
+– Adapted from Linus Torvalds
