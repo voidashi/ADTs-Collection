@@ -1,73 +1,61 @@
-# 🌟 ADTs Collection
+# 🌟 ADTs Collection  
 
-**A collection of Abstract Data Types (ADTs) implemented in pure C**  
-[![C](https://img.shields.io/badge/C-Pure_C-blue?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+*A flexible, efficient, and adaptable collection of Abstract Data Types (ADTs) implemented in pure C*  
 
-Flexible and efficient implementations of fundamental data structures for C projects.
-
----
-
-## 📚 Implemented Structures
-
-### **Core ADTs**
-- **Trees**
-  - Binary Search Tree (BST)
-  - AVL Tree
-  - Treap
-- **Linear Structures**
-  - Singly Linked List
-  - Doubly Linked List (supports circular configuration)
-- **LIFO/FIFO**
-  - Stack (Static/Dynamic/Generic implementations)
-  - Queue (Generic)
+[![C](https://img.shields.io/badge/Language-C-informational?style=flat&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))  
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE)  
 
 ---
 
-## 🚀 Getting Started
+## 📦 Features  
 
-### Prerequisites
-- C compiler (GCC/Clang recommended)
-- Standard C library
+### **Core Data Structures**  
+- **Trees:** Binary Search Tree (BST) • AVL Tree • Treap  
+- **Lists:** Singly & Doubly Linked Lists (supports circular configurations)  
+- **Stacks:** Static, Dynamic, and Generic implementations  
+- **Queue:** Generic implementation  
 
-### Basic Usage
-1. Clone repository:
-   ```bash
-   git clone https://github.com/voidashi/ADTs-Collection.git
-   ```
-2. Include desired headers in your code:
-   ```c
-   #include "linkedlist.h"  // For linked list operations
-   ```
-3. Compile with your source:
-   ```bash
-   gcc -o your_program your_code.c
-   ```
+### **Key Advantages**  
+- **Modular Design:** Easy to extend or modify for specific use cases.  
+- **Performance-Optimized:** Focus on efficient memory and runtime usage.  
+- **Reusable Code:** Clean interfaces for seamless integration into projects.  
 
 ---
 
-## ⚙️ Key Features
-- **Modular Design**: Independent structure implementations
-- **Memory Efficiency**: Manual memory management control
-- **Type Flexibility**: Generic implementations through `void*`
-- **Circular List Support**: For doubly linked lists
+## 🚀 Getting Started  
+
+### **Clone the Repository**  
+```bash  
+git clone https://github.com/voidashi/ADTs-Collection.git  
+```  
+
+### **Compilation**  
+Compile with a C compiler (e.g., `gcc`):  
+```bash  
+gcc -o program your_source_file.c  
+```  
+
+### **Basic Usage**  
+Include the desired header and use the ADTs:  
+```c  
+#include "linkedlist.h"  
+// Example: Create and manipulate a linked list  
+```  
+
+**Note:** Ensure headers are in your include path!  
 
 ---
 
-## 🤝 Contributing
-Contributions are welcome through:  
-- Issue reports
-- Pull requests
-- Documentation improvements
-
-Please maintain existing coding patterns and test any changes.
+## 🤝 Contributing  
+Found a bug or have an enhancement?  
+- Open an **Issue** for feature requests or bug reports.  
+- Submit a **Pull Request** for well-documented fixes or improvements.  
 
 ---
 
-## 📜 License
-MIT Licensed - Full terms in [LICENSE](LICENSE) file
+## 📄 License  
+MIT Licensed - See [LICENSE](LICENSE) for details.  
 
----
+---  
 
-*"Show me your code and I'll tell you who you are."*  
-– Adapted from Linus Torvalds
+*Built with ❤️ for low-level enthusiasts*  
